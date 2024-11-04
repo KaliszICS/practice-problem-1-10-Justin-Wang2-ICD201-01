@@ -1,33 +1,33 @@
 import math
 
 def q1(): 
-  num = input("input a number: ")
+  num = input("Input a number: ")
   num = int(num)
   num = math.sqrt(num)
   print(num)
 
 def q2(): 
-  num = input("input a number: ")
+  num = input("Input a number: ")
   num = int(num)
   num = math.sqrt(num)
   print(num)
 
 def q3(): 
-  num = input("input a number: ")
+  num = input("Input a number: ")
   num = float(num)
   num = math.floor(num)
   print(num)
   
 def q4(): 
-  num = input("input a number: ")
+  num = input("Input a number: ")
   num = float(num)
   num = math.ceil(num)
   print(num)
 
 
 def q5(): 
-  num = input("input a number: ")
-  num1 = input("input another number: ")
+  num = input("Input a number: ")
+  num1 = input("Input another number: ")
   num = int(num)
   num1 = int(num1)
   num2 = num1 * num
