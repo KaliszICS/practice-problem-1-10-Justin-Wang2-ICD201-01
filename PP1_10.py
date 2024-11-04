@@ -1,23 +1,33 @@
 
 
 def q1(): 
-  #Write Assignment code here
-
+  num = input("input a number: ")
+  num = sqrt(num)
+  print num
 
 def q2(): 
-  #Write Assignment code here
-
+  num = input("input a number: ")
+  num = sqrt(num)
+  num = int(num)
+  print num
 
 def q3(): 
-  #Write Assignment code here
-
+num = input("input a number: ")
+num = floor(num)
+print num
 
 def q4(): 
-  #Write Assignment code here
-
+num = input("input a number: ")
+num = ceil(num)
+print num
 
 def q5(): 
-  #Write Assignment code here
+num = input("input a number: ")
+num1 = input("input another number: ")
+num2 = num1 * num
+num3 = num2 / 2
+num = floor(num3)
+print num
 
 
 
