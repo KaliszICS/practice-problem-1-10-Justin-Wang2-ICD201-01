@@ -1,4 +1,4 @@
-  import math
+import math
 
 def q1(): 
   num = input("input a number: ")
