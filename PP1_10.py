@@ -1,7 +1,8 @@
 import math
 
 def q1(): 
-  num = float(input("Input a number: "))
+  num = input("Input a number: ")
+  num = float(num)
   print(math.sqrt(num))
 
 def q2(): 
@@ -9,17 +10,21 @@ def q2():
   print(math.isqrt(num))
 
 def q3(): 
-  num = float(input("Input a number: "))
+  num = input("Input a number: ")
+  num = float(num)
   print(math.floor(num))
   
 def q4(): 
-  num = float(input("Input a number: "))
+  num = input("Input a number: ")
+  num = float(num)
   print(math.ceil(num))
 
 
 def q5(): 
-  num = float(input("Input a number: "))
-  num1 = float(input("Input another number: "))
+  num = input("Input a number: ")
+  num1 = input("Input another number: ")
+  num = float(num)
+  num1 = float(num)
   num = num1 * num
   num = num / 2
   print(math.trunc(num))
