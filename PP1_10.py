@@ -1,7 +1,7 @@
 import math
 
 def q1(): 
-  num = int(input("Input a number: "))
+  num = float(input("Input a number: "))
   print(math.sqrt(num))
 
 def q2(): 
